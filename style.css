@@ -41,11 +41,17 @@ body {
 }
 
 #noKeyContent {
-    width: 100%;
+    width: 40%;
+
+    margin: 10% auto 0 auto;
+    padding: 2.5% 0 2.5% 0;
 
     display: block;
 
     text-align: center;
+
+    border: 8px solid rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 #keyContent {
