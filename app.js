@@ -7,7 +7,6 @@ const keyInfo = document.getElementById("eventKeyInfo");
 const keyCode = document.getElementById("eventCodeInfo");
 
 document.addEventListener("keydown", (event) => {
-    console.log(event.key);
     noKeyContent.style.display = "none";
     keyContent.style.display = "flex";
     keyCodeHeader.textContent = event.keyCode;
