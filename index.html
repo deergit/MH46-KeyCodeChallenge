@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylsheet" href="./style.css">
+    <title>Keycode Generator</title>
+</head>
+<body>
+    <h2 id="header">Javascript Keycode Info</h2>
+    <div id="contentWrapper">
+        <div id="noKeyContent" display="block">
+            <h3>Please press a key to retrieve the information about that keycode</h3>
+        </div>
+
+        <div id="keyContent" display="none">
+            <div id="keyPressedHeader">
+                <h3>Javascript Key Code:</h3>
+                <h1 id="keyCodeNo">Placeholder</h1>
+            </div>
+
+            <div id="keyPressedInfo">
+                <div id="eventKeyBlock">
+                    <h3>event.key:</h3>
+                    <h2 id="eventKeyInfo">Placeholder</h2>
+                </div>
+
+                <div id="eventCodeBlock">
+                    <h3>event.code:</h3>
+                    <h2 id="eventCodeInfo">Placeholder</h2>
+                </div>
+
+                <div id="eventWhichBlock">
+                    <h3>event.which:</h3>
+                    <h2 id="eventWhichInfo">Placeholder</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
