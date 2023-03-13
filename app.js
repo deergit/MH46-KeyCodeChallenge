@@ -1,10 +1,14 @@
+const noKeyContent = document.getElementById("noKeyContent");
+const keyContent = document.getElementById("keyContent");
+
 const keyWhichHeader = document.getElementById("keyCodeNo");
 const keyWhich = document.getElementById("eventWhichInfo");
 const keyInfo = document.getElementById("eventKeyInfo");
 const keyCode = document.getElementById("eventCodeInfo");
 
 document.addEventListener("keydown", (event) => {
-    console.log(event.key);
+    noKeyContent.style.display = "none";
+    keyContent.style.display = "flex";
     keyWhichHeader.textContent = event.keyCode;
     keyWhich.textContent = event.keyCode;
     keyInfo.textContent = event.key;
